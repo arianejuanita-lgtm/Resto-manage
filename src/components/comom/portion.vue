@@ -1,16 +1,10 @@
 ```vue
 <script setup>
-const props = defineProps({
-  title: String,
-  haut: {
-    type: [String, Number],
-    default: 40
-  }
-})
+const props = defineProps(['title'])
 </script>
 
 <template>
-  <button :style="{ height: haut + 'px' }">
+  <button >
     {{ title }}
   </button>
 </template>
@@ -20,13 +14,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: #F5BE18;
-  border: 1px solid #F5BE18;
+  border: 1px solid gray;
 
   padding: 0 20px;
   border-radius: 20px;
-
+height: 25px;
   cursor: pointer;
 
   font-weight: bold;

@@ -1,5 +1,4 @@
 const menuItems = [
-  // ========== BURGERS (12) ==========
   {
     id: 1,
     name: "Cheesy Beef Burger",
