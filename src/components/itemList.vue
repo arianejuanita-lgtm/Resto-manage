@@ -1,9 +1,8 @@
 <script setup>
-import menuItems from "@/data/menuItem";
-import { ref } from "vue";
-const menu = ref(menuItems);
+import UseItem from "@/hoooks/useItem.js";
 import Item from "./items/item.vue";
 import Select from "./comom/select.vue";
+const {menu}=UseItem();
 </script>
 
 <template>
@@ -18,7 +17,7 @@ import Select from "./comom/select.vue";
     </div>
     <div class="menu">
   <div v-for="item in menu" >
-    <Item :item=item />
+    <Item :item=item :key="item.id" />
   </div>
   </div>
 </template>
