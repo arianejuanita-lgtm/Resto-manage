@@ -1,4 +1,5 @@
 const menuItems = [
+  // ========== BURGERS (12) ==========
   {
     id: 1,
     name: "Cheesy Beef Burger",
@@ -9,7 +10,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Burger",
     dietary: [],
-    image: "cheesy_beef_burger.jpg",
+    image: "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -23,7 +24,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Burger",
     dietary: [],
-    image: "classic_cheeseburger.jpg",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -37,7 +38,7 @@ const menuItems = [
     delivery_time: "14-17 min",
     category: "Burger",
     dietary: [],
-    image: "bacon_bbq_burger.jpg",
+    image: "https://images.unsplash.com/photo-1553979459-d2229ba743a9?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -51,7 +52,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Burger",
     dietary: ["Vegan"],
-    image: "vegan_delight_burger.jpg",
+    image: "https://images.unsplash.com/photo-1572449043416-55f4695c2e5b?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -65,7 +66,7 @@ const menuItems = [
     delivery_time: "13-16 min",
     category: "Burger",
     dietary: [],
-    image: "mushroom_swiss_burger.jpg",
+    image: "https://images.unsplash.com/photo-1520072959219-c5953c073097?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -79,7 +80,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Burger",
     dietary: ["Spicy"],
-    image: "spicy_jalapeno_burger.jpg",
+    image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -93,7 +94,7 @@ const menuItems = [
     delivery_time: "16-20 min",
     category: "Burger",
     dietary: [],
-    image: "double_decker_burger.jpg",
+    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -107,7 +108,7 @@ const menuItems = [
     delivery_time: "13-16 min",
     category: "Burger",
     dietary: [],
-    image: "avocado_chicken_burger.jpg",
+    image: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -121,7 +122,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Burger",
     dietary: [],
-    image: "blue_cheese_burger.jpg",
+    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -135,7 +136,7 @@ const menuItems = [
     delivery_time: "14-17 min",
     category: "Burger",
     dietary: [],
-    image: "hawaiian_burger.jpg",
+    image: "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -149,7 +150,7 @@ const menuItems = [
     delivery_time: "15-18 min",
     category: "Burger",
     dietary: [],
-    image: "breakfast_burger.jpg",
+    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -163,7 +164,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Burger",
     dietary: [],
-    image: "mini_sliders.jpg",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Family"]
   },
@@ -179,7 +180,7 @@ const menuItems = [
     delivery_time: "18-22 min",
     category: "Pizza",
     dietary: [],
-    image: "pepperoni_supreme.jpg",
+    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -193,7 +194,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: ["Vegetarian"],
-    image: "margherita_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbed80d642?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -207,7 +208,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: [],
-    image: "bbq_chicken_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -221,7 +222,7 @@ const menuItems = [
     delivery_time: "18-22 min",
     category: "Pizza",
     dietary: ["Vegetarian"],
-    image: "four_cheese_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -235,7 +236,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: ["Vegetarian"],
-    image: "veggie_supreme.jpg",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -249,7 +250,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: ["Spicy"],
-    image: "spicy_sausage_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -263,7 +264,7 @@ const menuItems = [
     delivery_time: "18-22 min",
     category: "Pizza",
     dietary: [],
-    image: "hawaiian_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1541748736518-043c1bf854fc?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -277,7 +278,7 @@ const menuItems = [
     delivery_time: "22-28 min",
     category: "Pizza",
     dietary: ["Vegetarian"],
-    image: "truffle_mushroom_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -291,7 +292,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: [],
-    image: "pesto_chicken_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -305,7 +306,7 @@ const menuItems = [
     delivery_time: "22-28 min",
     category: "Pizza",
     dietary: [],
-    image: "meat_lovers_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -319,7 +320,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: ["Spicy"],
-    image: "buffalo_chicken_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -333,7 +334,7 @@ const menuItems = [
     delivery_time: "22-28 min",
     category: "Pizza",
     dietary: ["Gluten-Free", "Vegetarian"],
-    image: "gluten_free_margherita.jpg",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbed80d642?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -347,7 +348,7 @@ const menuItems = [
     delivery_time: "22-28 min",
     category: "Pizza",
     dietary: [],
-    image: "seafood_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -361,7 +362,7 @@ const menuItems = [
     delivery_time: "18-22 min",
     category: "Pizza",
     dietary: ["Spicy"],
-    image: "diavola_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -375,7 +376,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Pizza",
     dietary: ["Vegetarian"],
-    image: "funghi_pizza.jpg",
+    image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -391,7 +392,7 @@ const menuItems = [
     delivery_time: "15-18 min",
     category: "Chicken",
     dietary: ["Spicy"],
-    image: "crispy_wing_box.jpg",
+    image: "https://images.pexels.com/photos/10122686/pexels-photo-10122686.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -405,7 +406,7 @@ const menuItems = [
     delivery_time: "15-20 min",
     category: "Chicken",
     dietary: [],
-    image: "grilled_chicken_breast.jpg",
+    image: "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -419,7 +420,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Chicken",
     dietary: [],
-    image: "chicken_tenders.jpg",
+    image: "https://images.pexels.com/photos/2340045/pexels-photo-2340045.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -433,7 +434,7 @@ const menuItems = [
     delivery_time: "15-18 min",
     category: "Chicken",
     dietary: ["Spicy"],
-    image: "nashville_hot_chicken.jpg",
+    image: "https://images.pexels.com/photos/6107761/pexels-photo-6107761.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -447,7 +448,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Chicken",
     dietary: [],
-    image: "chicken_caesar_wrap.jpg",
+    image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -461,7 +462,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Chicken",
     dietary: [],
-    image: "teriyaki_chicken_bowl.jpg",
+    image: "https://images.pexels.com/photos/6119884/pexels-photo-6119884.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -475,7 +476,7 @@ const menuItems = [
     delivery_time: "20-25 min",
     category: "Chicken",
     dietary: [],
-    image: "chicken_parmesan.jpg",
+    image: "https://images.pexels.com/photos/6242273/pexels-photo-6242273.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -489,7 +490,7 @@ const menuItems = [
     delivery_time: "12-15 min",
     category: "Chicken",
     dietary: ["Spicy"],
-    image: "spicy_chicken_sandwich.jpg",
+    image: "https://images.pexels.com/photos/5195791/pexels-photo-5195791.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -503,7 +504,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Chicken",
     dietary: ["Spicy"],
-    image: "buffalo_chicken_wrap.jpg",
+    image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -517,7 +518,7 @@ const menuItems = [
     delivery_time: "15-18 min",
     category: "Chicken",
     dietary: [],
-    image: "chicken_waffles.jpg",
+    image: "https://images.pexels.com/photos/5727834/pexels-photo-5727834.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -533,7 +534,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "cold_brew_cooler.jpg",
+    image: "https://images.pexels.com/photos/3029004/pexels-photo-3029004.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -547,7 +548,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Drinks",
     dietary: ["Vegetarian"],
-    image: "chocolate_shake.jpg",
+    image: "https://images.pexels.com/photos/2610940/pexels-photo-2610940.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -561,7 +562,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "strawberry_lemonade.jpg",
+    image: "https://images.pexels.com/photos/634095/pexels-photo-634095.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -575,7 +576,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Drinks",
     dietary: ["Vegetarian"],
-    image: "vanilla_milkshake.jpg",
+    image: "https://images.pexels.com/photos/2610940/pexels-photo-2610940.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -589,7 +590,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "fresh_orange_juice.jpg",
+    image: "https://images.pexels.com/photos/2262542/pexels-photo-2262542.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -603,7 +604,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Drinks",
     dietary: ["Vegetarian"],
-    image: "iced_caramel_latte.jpg",
+    image: "https://images.pexels.com/photos/3029004/pexels-photo-3029004.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -617,7 +618,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "green_smoothie.jpg",
+    image: "https://images.pexels.com/photos/6144490/pexels-photo-6144490.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -631,7 +632,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "peach_iced_tea.jpg",
+    image: "https://images.pexels.com/photos/439782/pexels-photo-439782.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -645,7 +646,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegetarian"],
-    image: "mango_lassi.jpg",
+    image: "https://images.pexels.com/photos/1624647/pexels-photo-1624647.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -659,7 +660,7 @@ const menuItems = [
     delivery_time: "2-3 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "espresso_shot.jpg",
+    image: "https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -673,7 +674,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegetarian"],
-    image: "berry_smoothie.jpg",
+    image: "https://images.pexels.com/photos/6144490/pexels-photo-6144490.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -687,7 +688,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Drinks",
     dietary: ["Vegan"],
-    image: "coconut_water.jpg",
+    image: "https://images.pexels.com/photos/324595/pexels-photo-324595.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -703,7 +704,7 @@ const menuItems = [
     delivery_time: "8-10 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "chocolate_lava_cake.jpg",
+    image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -717,7 +718,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "new_york_cheesecake.jpg",
+    image: "https://images.pexels.com/photos/236821/pexels-photo-236821.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -731,7 +732,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "tiramisu.jpg",
+    image: "https://images.pexels.com/photos/104545/pexels-photo-104545.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -745,7 +746,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "apple_crumble.jpg",
+    image: "https://images.pexels.com/photos/6635827/pexels-photo-6635827.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -759,7 +760,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "carrot_cake.jpg",
+    image: "https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -773,7 +774,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "brownie_sundae.jpg",
+    image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -787,7 +788,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "panna_cotta.jpg",
+    image: "https://images.pexels.com/photos/1401635/pexels-photo-1401635.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -801,7 +802,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "fruit_tart.jpg",
+    image: "https://images.pexels.com/photos/6336470/pexels-photo-6336470.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -815,7 +816,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Desserts",
     dietary: ["Vegetarian"],
-    image: "chocolate_mousse.jpg",
+    image: "https://images.pexels.com/photos/2750840/pexels-photo-2750840.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -829,7 +830,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Desserts",
     dietary: ["Vegan"],
-    image: "vegan_berry_sorbet.jpg",
+    image: "https://images.pexels.com/photos/6336387/pexels-photo-6336387.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular"]
   },
@@ -845,7 +846,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Sides",
     dietary: [],
-    image: "loaded_fries.jpg",
+    image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -859,7 +860,7 @@ const menuItems = [
     delivery_time: "8-10 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "onion_rings.jpg",
+    image: "https://images.pexels.com/photos/3738709/pexels-photo-3738709.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -873,7 +874,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "garlic_bread.jpg",
+    image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -887,7 +888,7 @@ const menuItems = [
     delivery_time: "8-10 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "mozzarella_sticks.jpg",
+    image: "https://images.pexels.com/photos/3738709/pexels-photo-3738709.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -901,7 +902,7 @@ const menuItems = [
     delivery_time: "3-5 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "coleslaw.jpg",
+    image: "https://images.pexels.com/photos/11125381/pexels-photo-11125381.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -915,7 +916,7 @@ const menuItems = [
     delivery_time: "10-12 min",
     category: "Sides",
     dietary: ["Vegan"],
-    image: "sweet_potato_fries.jpg",
+    image: "https://images.pexels.com/photos/6069380/pexels-photo-6069380.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   },
@@ -929,7 +930,7 @@ const menuItems = [
     delivery_time: "8-10 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "mac_cheese_bites.jpg",
+    image: "https://images.pexels.com/photos/8500434/pexels-photo-8500434.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -943,7 +944,7 @@ const menuItems = [
     delivery_time: "5-8 min",
     category: "Sides",
     dietary: ["Vegetarian", "Vegan"],
-    image: "garden_salad.jpg",
+    image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large"]
   },
@@ -957,7 +958,7 @@ const menuItems = [
     delivery_time: "8-10 min",
     category: "Sides",
     dietary: ["Vegetarian"],
-    image: "churros.jpg",
+    image: "https://images.pexels.com/photos/6805566/pexels-photo-6805566.jpeg?w=600&h=400&fit=crop",
     is_available: true,
     portion_sizes: ["Regular", "Large", "Family"]
   }

@@ -1,17 +1,25 @@
 <script setup>
-import Header from './components/header.vue';
-import search from './components/comom/search.vue';
-import menuItems from './data/menuItem.js';
-import item from './components/item.vue';
-import Filter from './components/filter.vue';
+import Header from "./components/header.vue";
+import Search from "./components/comom/search.vue";
+import ItemList from "./components/itemList.vue";
+import Filter from "./components/filter.vue";
 </script>
 
 <template>
-  
-    <Header class="header" />
-    <div class="content">
-    <search class="search" />
-  <Filter class="filter"/>
+  <Header class="header" />
+  <div class="content">
+    <div>
+      <Filter class="filter" />
+    </div>
+    <div >
+      <div class="search">
+        <Search />
+      </div>
+      
+      <div>
+        <ItemList/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -26,28 +34,30 @@ import Filter from './components/filter.vue';
 }
 
 .search {
-  position: fixed;
-  top: 90px; 
-  right: 50px;
-  z-index: 1001; 
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .filter {
-  position: fixed;
-  top: 100px; 
-  left: 50px;
-  width: 300px;
   background-color: whitesmoke;
   border-radius: 20px;
   border: 1px solid gray;
 }
 
 .content {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;  
-  white-space: nowrap; 
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-top: 90px;
+  gap: 20px;
 }
 
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 </style>

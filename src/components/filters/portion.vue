@@ -6,10 +6,18 @@ const Portions=ref(filters.portion_sizes);
 </script>
 <template>
     <label for="portion">Portion</label>
-    <ul>
-        <li v-for="port in Portions" :key="port.id">
+    
+        <div v-for="port in Portions" :key="port.id" class="bot">
             <portion :title="port.label"/>
-        </li>
-    </ul>
+        </div>
+    
 </template>
-<style></style>
+<style>
+.bot {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+</style>
