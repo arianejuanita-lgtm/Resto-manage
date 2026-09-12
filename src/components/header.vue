@@ -4,6 +4,7 @@ import boutton from './comom/boutton.vue';
 import { Search } from 'lucide-vue-next';
 import { User } from 'lucide-vue-next';
 import { ShoppingBag } from 'lucide-vue-next';
+import { RouterLink } from 'vue-router';
 const titre='Order now';
 </script>
 
@@ -32,7 +33,9 @@ const titre='Order now';
         <div> <Search /></div>
         <div><User/></div>
         <div><ShoppingBag /></div>
-        <boutton :title=titre :haut="40"/>
+        <RouterLink to="/oder">
+
+        <boutton :title=titre :haut="40"/></RouterLink>
     </div>
     </div>
 </template>

@@ -1,10 +1,12 @@
-```vue
 <script setup>
-const props = defineProps(['title'])
+defineProps({
+  title: String,
+  ontap: Function
+});
 </script>
 
 <template>
-  <button >
+  <button v-on:click="ontap">
     {{ title }}
   </button>
 </template>
@@ -15,13 +17,10 @@ button {
   align-items: center;
   justify-content: center;
   border: 1px solid gray;
-
-  padding: 0 20px;
+  padding: 0 10px;
   border-radius: 20px;
-height: 25px;
+  height: 25px;
   cursor: pointer;
-
   font-weight: bold;
 }
 </style>
-```

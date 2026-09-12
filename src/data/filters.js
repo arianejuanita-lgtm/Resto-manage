@@ -1,6 +1,5 @@
 const filters = {
   categories: [
-    { id: "all", label: "ALL", icon: "🍽️" },
     { id: "pizza", label: "Pizza", icon: "🍕" },
     { id: "chicken", label: "Chicken", icon: "🍗" },
     { id: "drinks", label: "Drinks", icon: "🥤" },

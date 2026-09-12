@@ -7,10 +7,20 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  
-  <Header class="header" />
-  <RouterView/>
- 
+ <div class="content">
+    <div>
+      <Filter class="filter" />
+    </div>
+    <div >
+      <div class="search">
+        <Search />
+      </div>
+      
+      <div>
+        <ItemList/>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>

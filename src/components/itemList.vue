@@ -2,42 +2,54 @@
 import UseItem from "@/hoooks/useItem.js";
 import Item from "./items/item.vue";
 import Select from "./comom/select.vue";
-const {menu}=UseItem();
+
+const { menu } = UseItem();
 </script>
 
 <template>
-    <div class="div">
-        <div>
-            <label for="title">{{ menu.length }} Menu Items</label>
-        </div>
-
-        <div>
-        <Select/>
-        </div>
+  <div class="menu-container">
+    <div class="menu-header">
+      <h2 class="menu-title">{{ menu.length }} Menu Items</h2>
+      <div class="menu-filter">
+        <Select />
+      </div>
     </div>
-    <div class="menu">
-  <div v-for="item in menu" >
-    <Item :item=item :key="item.id" />
-  </div>
+
+    <div class="menu-grid">
+      <Item v-for="item in menu" :item="item" :key="item.id" />
+    </div>
   </div>
 </template>
 
 <style scoped>
-.menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap:10px
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-label{
-    font-weight: bold;
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
 }
 
-.div{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    width: 100%;
+.menu-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
 }
 </style>
